@@ -23,7 +23,7 @@ O projeto é um pipeline *End-to-End*, que vai desde a extração de dados bruto
 ## 📊 A Vitrine Executiva (Dashboard)
 O painel foi desenhado para ser uma ferramenta de ação. Ele destaca o Faturamento em Risco e aponta no mapa as malhas logísticas estranguladas.
 
-![Demonstração do Dashboard](link_para_o_seu_gif_ou_print_aqui.gif)
+![Demonstração do Dashboard](./assets/dashboard_logistica.gif)
 
 ---
 
