@@ -59,22 +59,8 @@ Essa abordagem orientada por dados permite que o gestor de Supply Chain atue pre
 │   ├── processed/                         # Base unificada e com previsões da IA
 │   └── raw/                               # Dados brutos da Olist (ignorados no git)
 ├── notebooks/
-│   ├── 01_preparacao_dados.ipynb          # JOINs, Limpeza e Engenharia de Features
-│   └── 02_treinamento_ml.ipynb            # Treinamento do modelo Random Forest
-│   └── 03_analise_exploratoria.ipynb      # Investigação estatística dos motivos dos atrasos.
-├── PowerBI/
-│   └── torre_controle_logistica.pbix      # Arquivo do dashboard executivo
-├── .gitignore                             # Ignora ambientes virtuais (.venv) e arquivos pesados
-├── README.md                              # Documentação principal do projeto
-└── requirements.txt                       # Dependências e bibliotecas Python utilizadas
-```
-
-## 🚀 Como Executar
-
-* Clone este repositório.
-
-* Baixe o dataset "Brazilian E-Commerce Public Dataset by Olist" no Kaggle e insira os arquivos .csv na pasta data/raw/.
-
-* Execute os notebooks sequencialmente para gerar a base consolidada.
-
-* Abra o arquivo .pbix e atualize a fonte de dados para apontar para o seu diretório local data/processed/base_para_powerbi.csv.
+│   ├── 01_preparacao_dados.ipynb  # JOINs e Engenharia de Features
+│   └── 02_treinamento_ml.ipynb    # Treinamento do Random Forest e exportação
+├── dashboard/
+│   └── torre_controle_logistica.pbix  # Arquivo do Power BI
+└── README.md
